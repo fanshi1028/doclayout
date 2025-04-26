@@ -23,10 +23,10 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Text.DocLayout
-  other-modules:       Text.DocLayout.HasChars,
+  exposed-modules:     Text.DocLayout,
                        Text.DocLayout.ANSIFont,
                        Text.DocLayout.Attributed
+  other-modules:       Text.DocLayout.HasChars
   build-depends:       base >= 4.12 && < 5,
                        text,
                        containers,

@@ -103,8 +103,6 @@ module Text.DocLayout (
      -- * Types
      , Doc(..)
      , HasChars(..)
-     , module Text.DocLayout.Attributed
-     , module Text.DocLayout.ANSIFont
      )
 
 where
