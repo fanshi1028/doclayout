@@ -26,7 +26,8 @@ blocks for tables.
 
 module Text.DocLayout (
      -- * Rendering
-       render
+       prerender
+     , render
      , renderPlain
      , renderANSI
      -- * Doc constructors
@@ -102,7 +103,8 @@ module Text.DocLayout (
      -- * Types
      , Doc(..)
      , HasChars(..)
-     , Attributed
+     , module Text.DocLayout.Attributed
+     , module Text.DocLayout.ANSIFont
      )
 
 where
